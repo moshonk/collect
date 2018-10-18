@@ -21,8 +21,8 @@ replace({
 });
 
 replace({
-    regex: "https://opendatakit.org",
-    replacement: "http://www.kobotoolbox.org",
+    regex: "http://www.kobotoolbox.org",
+    replacement: "http://icap.columbia.edu/where-we-work/kenya",
     paths: ['collect_app/src/main/java/org/koboc/collect/android/activities/AboutActivity.java'],
     recursive: true,
     silent: true
@@ -37,24 +37,24 @@ replace({
 });
 
 replace({
-    regex: "ODK Collect",
-    replacement: "KoBoCollect",
+    regex: "KoBoCollect",
+    replacement: "NyaWestCollect",
     paths: ['collect_app/src/main/res'],
     recursive: true,
     silent: true
 });
 
 replace({
-    regex: 'Open Data Kit .ODK.',
-    replacement: "KoBoToolbox",
+    regex: 'KoBoToolbox',
+    replacement: "NyaWestCollect",
     paths: ['collect_app/src/main/res'],
     recursive: true,
     silent: true
 });
 
 replace({
-    regex: 'ODK',
-    replacement: "KoBoToolbox",
+    regex: 'KoBoToolbox',
+    replacement: "NyaWestCollect",
     paths: ['collect_app/src/main/res'],
     recursive: true,
     silent: true

@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.koboc.collect.android.utilities;
+package org.nyawest.collect.android.utilities;
 
 import org.javarosa.core.model.FormIndex;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
-import org.koboc.collect.android.application.Collect;
-import org.koboc.collect.android.logic.FormController;
-import org.koboc.collect.android.tasks.SaveFormIndexTask;
-import org.koboc.collect.android.tasks.SaveToDiskTask;
+import org.nyawest.collect.android.application.Collect;
+import org.nyawest.collect.android.logic.FormController;
+import org.nyawest.collect.android.tasks.SaveFormIndexTask;
+import org.nyawest.collect.android.tasks.SaveToDiskTask;
 
 import java.io.File;
 

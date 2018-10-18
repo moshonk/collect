@@ -1,9 +1,9 @@
-package org.koboc.collect.android.utilities;
+package org.nyawest.collect.android.utilities;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.koboc.collect.android.application.Collect;
-import org.koboc.collect.android.test.MockedServerTest;
+import org.nyawest.collect.android.application.Collect;
+import org.nyawest.collect.android.test.MockedServerTest;
 import org.opendatakit.httpclientandroidlib.client.HttpClient;
 import org.opendatakit.httpclientandroidlib.client.methods.HttpGet;
 import org.opendatakit.httpclientandroidlib.protocol.HttpContext;
@@ -16,7 +16,7 @@ import okhttp3.mockwebserver.RecordedRequest;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
-import static org.koboc.collect.android.test.TestUtils.assertMatches;
+import static org.nyawest.collect.android.test.TestUtils.assertMatches;
 
 public class WebUtilsTest extends MockedServerTest {
     @Before

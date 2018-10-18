@@ -1,4 +1,4 @@
-package org.koboc.collect.android;
+package org.nyawest.collect.android;
 
 import android.app.Instrumentation.ActivityResult;
 import android.content.Context;
@@ -31,8 +31,8 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
-import org.koboc.collect.android.activities.FormEntryActivity;
-import org.koboc.collect.android.utilities.ActivityAvailability;
+import org.nyawest.collect.android.activities.FormEntryActivity;
+import org.nyawest.collect.android.utilities.ActivityAvailability;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -72,7 +72,7 @@ import static org.hamcrest.Matchers.endsWith;
 import static org.hamcrest.Matchers.startsWith;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
-import static org.koboc.collect.android.activities.FormEntryActivity.EXTRA_TESTING_PATH;
+import static org.nyawest.collect.android.activities.FormEntryActivity.EXTRA_TESTING_PATH;
 
 // import android.support.annotation.Nullable;
 // import org.odk.collect.android.activities.BearingActivity;

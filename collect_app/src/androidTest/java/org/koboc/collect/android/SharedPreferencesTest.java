@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.koboc.collect.android;
+package org.nyawest.collect.android;
 
 import android.support.test.runner.AndroidJUnit4;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.koboc.collect.android.preferences.AdminSharedPreferences;
-import org.koboc.collect.android.preferences.GeneralSharedPreferences;
-import org.koboc.collect.android.preferences.PreferenceKeys;
-import org.koboc.collect.android.utilities.SharedPreferencesUtils;
+import org.nyawest.collect.android.preferences.AdminSharedPreferences;
+import org.nyawest.collect.android.preferences.GeneralSharedPreferences;
+import org.nyawest.collect.android.preferences.PreferenceKeys;
+import org.nyawest.collect.android.utilities.SharedPreferencesUtils;
 
 import java.util.HashMap;
 
 import static junit.framework.Assert.assertEquals;
-import static org.koboc.collect.android.preferences.AdminKeys.KEY_EDIT_SAVED;
-import static org.koboc.collect.android.preferences.PreferenceKeys.KEY_COMPLETED_DEFAULT;
+import static org.nyawest.collect.android.preferences.AdminKeys.KEY_EDIT_SAVED;
+import static org.nyawest.collect.android.preferences.PreferenceKeys.KEY_COMPLETED_DEFAULT;
 
 @RunWith(AndroidJUnit4.class)
 public class SharedPreferencesTest {

@@ -39,6 +39,6 @@ the License.
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         tools:text="Sort by Name" />
 </LinearLayout>

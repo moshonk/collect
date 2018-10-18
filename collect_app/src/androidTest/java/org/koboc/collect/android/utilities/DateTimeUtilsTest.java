@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.koboc.collect.android.utilities;
+package org.nyawest.collect.android.utilities;
 
 import android.content.Context;
 import android.support.test.filters.Suppress;
@@ -23,8 +23,8 @@ import android.support.test.runner.AndroidJUnit4;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.koboc.collect.android.application.Collect;
-import org.koboc.collect.android.logic.DatePickerDetails;
+import org.nyawest.collect.android.application.Collect;
+import org.nyawest.collect.android.logic.DatePickerDetails;
 
 import java.util.Date;
 import java.util.Locale;

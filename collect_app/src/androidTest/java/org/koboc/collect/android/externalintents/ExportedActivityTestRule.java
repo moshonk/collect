@@ -1,9 +1,9 @@
-package org.koboc.collect.android.externalintents;
+package org.nyawest.collect.android.externalintents;
 
 import android.app.Activity;
 import android.support.test.rule.ActivityTestRule;
 
-import static org.koboc.collect.android.externalintents.ExportedActivitiesUtils.clearDirectories;
+import static org.nyawest.collect.android.externalintents.ExportedActivitiesUtils.clearDirectories;
 
 class ExportedActivityTestRule<A extends Activity> extends ActivityTestRule<A> {
 

@@ -293,8 +293,8 @@
   <string name="username_error_whitespace">Les espaces ne sont pas permis au début ou à la fin du nom d\'utilisateur</string>
   <string name="google_play_services_error_occured">Impossible d’accéder à Google Maps. Google Play Services est-il installé ?</string>
   <string name="about_preferences">À propos</string>
-  <string name="tell_your_friends">Partager KoBoCollect</string>
-  <string name="tell_your_friends_msg">Vos collègues continuent-ils à collecter des données sur papier? Partager KoBoCollecter avec eux.</string>
+  <string name="tell_your_friends">Partager NyaWestCollect</string>
+  <string name="tell_your_friends_msg">Vos collègues continuent-ils à collecter des données sur papier? Partager NyaWestCollecter avec eux.</string>
   <string name="leave_a_review">Laissez un avis sur Play Store</string>
   <string name="leave_a_review_msg">Votre avis (ce qu\'on espère est positif) augmente la visibilité de l\'application dans le Play Store.</string>
   <!--Geo string added in feature-geofeatures branch-->
@@ -431,7 +431,7 @@
   <string name="sort_by_status_asc">Statut, les finalisés en premier</string>
   <string name="sort_by_status_desc">Statut, les non finalisés en premier</string>
   <string name="sort_the_list">Trier la liste</string>
-  <string name="request_permissions_google_account">KoBoCollect a besoin d\'accéder à votre compte Google pour obtenir des formulaires vierges et soumettre des formulaires complétés.</string>
+  <string name="request_permissions_google_account">NyaWestCollect a besoin d\'accéder à votre compte Google pour obtenir des formulaires vierges et soumettre des formulaires complétés.</string>
   <string name="filter_the_list">Filtrer la liste</string>
   <string name="language">Langue</string>
   <string name="google_auth_io_exception_msg">Impossible de faire des appels API. Si vous exécutez une compilation locale, veuillez lire le fichier \"Readme\" du projet.</string>

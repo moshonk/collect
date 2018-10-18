@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.koboc.collect.android;
+package org.nyawest.collect.android;
 
 import android.content.res.AssetManager;
 import android.os.Environment;
@@ -26,9 +26,9 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
-import org.koboc.collect.android.listeners.FormLoaderListener;
-import org.koboc.collect.android.logic.FormController;
-import org.koboc.collect.android.tasks.FormLoaderTask;
+import org.nyawest.collect.android.listeners.FormLoaderListener;
+import org.nyawest.collect.android.logic.FormController;
+import org.nyawest.collect.android.tasks.FormLoaderTask;
 
 import java.io.File;
 import java.io.FileOutputStream;

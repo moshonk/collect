@@ -1,8 +1,8 @@
-package org.koboc.collect.android.tasks;
+package org.nyawest.collect.android.tasks;
 
 import org.junit.Test;
-import org.koboc.collect.android.logic.FormDetails;
-import org.koboc.collect.android.test.MockedServerTest;
+import org.nyawest.collect.android.logic.FormDetails;
+import org.nyawest.collect.android.test.MockedServerTest;
 
 import java.util.Map;
 
@@ -11,7 +11,7 @@ import okhttp3.mockwebserver.RecordedRequest;
 import static junit.framework.Assert.assertFalse;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
-import static org.koboc.collect.android.test.TestUtils.assertMatches;
+import static org.nyawest.collect.android.test.TestUtils.assertMatches;
 
 public class DownloadFormListTaskTest extends MockedServerTest {
 

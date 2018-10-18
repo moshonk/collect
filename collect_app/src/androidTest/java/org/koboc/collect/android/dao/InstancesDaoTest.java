@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.koboc.collect.android.dao;
+package org.nyawest.collect.android.dao;
 
 import android.database.Cursor;
 import android.support.test.runner.AndroidJUnit4;
@@ -23,9 +23,9 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.koboc.collect.android.application.Collect;
-import org.koboc.collect.android.dto.Instance;
-import org.koboc.collect.android.provider.InstanceProviderAPI;
+import org.nyawest.collect.android.application.Collect;
+import org.nyawest.collect.android.dto.Instance;
+import org.nyawest.collect.android.provider.InstanceProviderAPI;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package org.koboc.collect.android.tasks;
+package org.nyawest.collect.android.tasks;
 
 import android.net.Uri;
 
@@ -7,20 +7,20 @@ import java.io.File;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.koboc.collect.android.dao.InstancesDao;
-import org.koboc.collect.android.dto.Instance;
-import org.koboc.collect.android.provider.InstanceProviderAPI;
-import org.koboc.collect.android.tasks.InstanceUploader.Outcome;
-import org.koboc.collect.android.test.MockedServerTest;
+import org.nyawest.collect.android.dao.InstancesDao;
+import org.nyawest.collect.android.dto.Instance;
+import org.nyawest.collect.android.provider.InstanceProviderAPI;
+import org.nyawest.collect.android.tasks.InstanceUploader.Outcome;
+import org.nyawest.collect.android.test.MockedServerTest;
 
 import okhttp3.mockwebserver.RecordedRequest;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
-import static org.koboc.collect.android.test.TestUtils.assertMatches;
-import static org.koboc.collect.android.test.TestUtils.cleanUpTempFiles;
-import static org.koboc.collect.android.test.TestUtils.createTempFile;
-import static org.koboc.collect.android.test.TestUtils.resetInstancesContentProvider;
+import static org.nyawest.collect.android.test.TestUtils.assertMatches;
+import static org.nyawest.collect.android.test.TestUtils.cleanUpTempFiles;
+import static org.nyawest.collect.android.test.TestUtils.createTempFile;
+import static org.nyawest.collect.android.test.TestUtils.resetInstancesContentProvider;
 
 public class InstanceServerUploaderTest extends MockedServerTest {
     private InstancesDao dao;

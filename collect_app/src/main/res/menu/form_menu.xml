@@ -16,10 +16,10 @@
     than title-->
     <item
         android:id="@+id/menu_save"
-        android:icon="@drawable/ic_save_black_32dp"
+        android:icon="@drawable/ic_save_white"
         android:title="@string/save_all_answers"
         app:showAsAction="always"
-        tools:ignore="AlwaysShowAction"/>
+        tools:ignore="AlwaysShowAction" />
 
     <item
         android:id="@+id/menu_goto"

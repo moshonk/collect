@@ -9,7 +9,7 @@ the specific language governing permissions and limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="org.koboc.collect.android">
+    package="org.nyawest.collect.android">
 
     <uses-feature
         android:name="android.hardware.location"
@@ -64,10 +64,10 @@ the specific language governing permissions and limitations under the License.
     -->
 
     <permission
-        android:name="org.koboc.collect.android.permission.MAPS_RECEIVE"
+        android:name="org.nyawest.collect.android.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="org.koboc.collect.android.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="org.nyawest.collect.android.permission.MAPS_RECEIVE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
 
     <supports-screens
@@ -79,33 +79,33 @@ the specific language governing permissions and limitations under the License.
         android:xlargeScreens="true" />
 
     <application
-        android:name="org.koboc.collect.android.application.Collect"
-        android:icon="@drawable/notes"
+        android:name="org.nyawest.collect.android.application.Collect"
+        android:icon="@mipmap/ic_launcher"
         android:installLocation="auto"
         android:label="@string/app_name"
         android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppThemeBase.Collect">
         <provider
-            android:name="org.koboc.collect.android.provider.FormsProvider"
-            android:authorities="org.koboc.collect.android.provider.odk.forms"
-            android:exported="true" />
+            android:name="org.nyawest.collect.android.provider.FormsProvider"
+            android:authorities="org.nyawest.collect.android.provider.odk.forms"
+            android:exported="false" />
         <provider
-            android:name="org.koboc.collect.android.provider.InstanceProvider"
-            android:authorities="org.koboc.collect.android.provider.odk.instances"
-            android:exported="true" />
+            android:name="org.nyawest.collect.android.provider.InstanceProvider"
+            android:authorities="org.nyawest.collect.android.provider.odk.instances"
+            android:exported="false" />
 
         <activity
-            android:name="org.koboc.collect.android.activities.MainMenuActivity"
+            android:name="org.nyawest.collect.android.activities.MainMenuActivity"
             android:configChanges="locale|orientation|screenSize"
             android:label="@string/app_name" />
         <activity
-            android:name="org.koboc.collect.android.activities.ScannerWithFlashlightActivity"
+            android:name="org.nyawest.collect.android.activities.ScannerWithFlashlightActivity"
             android:screenOrientation="portrait"
             android:stateNotNeeded="true"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="org.koboc.collect.android.activities.FormEntryActivity"
+            android:name="org.nyawest.collect.android.activities.FormEntryActivity"
             android:configChanges="orientation"
             android:label="@string/app_name"
             android:windowSoftInputMode="adjustResize">
@@ -120,22 +120,22 @@ the specific language governing permissions and limitations under the License.
             </intent-filter>
         </activity>
         <activity
-            android:name="org.koboc.collect.android.activities.NotificationActivity"
+            android:name="org.nyawest.collect.android.activities.NotificationActivity"
             android:excludeFromRecents="true"
             android:label="@string/app_name"
             android:launchMode="singleTask"
             android:taskAffinity="" />
         <activity
-            android:name="org.koboc.collect.android.activities.DrawActivity"
+            android:name="org.nyawest.collect.android.activities.DrawActivity"
             android:label="@string/app_name"
             android:screenOrientation="landscape" />
         <activity
-            android:name="org.koboc.collect.android.activities.GoogleDriveActivity"
+            android:name="org.nyawest.collect.android.activities.GoogleDriveActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="org.koboc.collect.android.activities.InstanceChooserList"
+            android:name="org.nyawest.collect.android.activities.InstanceChooserList"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -147,7 +147,7 @@ the specific language governing permissions and limitations under the License.
             </intent-filter>
         </activity>
         <activity
-            android:name="org.koboc.collect.android.activities.FormChooserList"
+            android:name="org.nyawest.collect.android.activities.FormChooserList"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -160,18 +160,18 @@ the specific language governing permissions and limitations under the License.
             </intent-filter>
         </activity>
         <activity
-            android:name="org.koboc.collect.android.activities.FormDownloadList"
+            android:name="org.nyawest.collect.android.activities.FormDownloadList"
             android:label="@string/app_name" />
         <activity
-            android:name="org.koboc.collect.android.activities.FileManagerTabs"
+            android:name="org.nyawest.collect.android.activities.FileManagerTabs"
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name" />
         <activity
-            android:name="org.koboc.collect.android.activities.GoogleSheetsUploaderActivity"
+            android:name="org.nyawest.collect.android.activities.GoogleSheetsUploaderActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name" />
         <activity
-            android:name="org.koboc.collect.android.activities.InstanceUploaderList"
+            android:name="org.nyawest.collect.android.activities.InstanceUploaderList"
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name">
             <intent-filter>
@@ -182,58 +182,58 @@ the specific language governing permissions and limitations under the License.
             </intent-filter>
         </activity>
         <activity
-            android:name="org.koboc.collect.android.activities.InstanceUploaderActivity"
+            android:name="org.nyawest.collect.android.activities.InstanceUploaderActivity"
             android:label="@string/app_name" />
         <activity
-            android:name="org.koboc.collect.android.activities.AboutActivity"
+            android:name="org.nyawest.collect.android.activities.AboutActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.SettingsTheme" />
         <activity
-            android:name="org.koboc.collect.android.preferences.PreferencesActivity"
+            android:name="org.nyawest.collect.android.preferences.PreferencesActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.SettingsTheme" />
         <activity
-            android:name="org.koboc.collect.android.preferences.AdminPreferencesActivity"
+            android:name="org.nyawest.collect.android.preferences.AdminPreferencesActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.SettingsTheme" />
         <activity
-            android:name="org.koboc.collect.android.activities.ViewFormHierarchyActivity"
+            android:name="org.nyawest.collect.android.activities.ViewFormHierarchyActivity"
             android:label="@string/app_name" />
         <activity
-            android:name="org.koboc.collect.android.activities.EditFormHierarchyActivity"
+            android:name="org.nyawest.collect.android.activities.EditFormHierarchyActivity"
             android:label="@string/app_name" />
         <activity
-            android:name="org.koboc.collect.android.activities.GeoPointActivity"
+            android:name="org.nyawest.collect.android.activities.GeoPointActivity"
             android:label="@string/app_name" />
         <activity
-            android:name="org.koboc.collect.android.activities.GeoPointMapActivity"
+            android:name="org.nyawest.collect.android.activities.GeoPointMapActivity"
             android:configChanges="orientation"
             android:label="@string/app_name" />
         <activity
-            android:name="org.koboc.collect.android.activities.GeoPointOsmMapActivity"
+            android:name="org.nyawest.collect.android.activities.GeoPointOsmMapActivity"
             android:configChanges="orientation"
             android:label="@string/app_name" />
         <activity
-            android:name="org.koboc.collect.android.activities.GeoShapeOsmMapActivity"
+            android:name="org.nyawest.collect.android.activities.GeoShapeOsmMapActivity"
             android:configChanges="orientation"
             android:label="@string/app_name" />
         <activity
-            android:name="org.koboc.collect.android.activities.GeoShapeGoogleMapActivity"
+            android:name="org.nyawest.collect.android.activities.GeoShapeGoogleMapActivity"
             android:configChanges="orientation"
             android:label="@string/app_name" />
         <activity
-            android:name="org.koboc.collect.android.activities.GeoTraceOsmMapActivity"
+            android:name="org.nyawest.collect.android.activities.GeoTraceOsmMapActivity"
             android:configChanges="orientation"
             android:label="@string/app_name" />
         <activity
-            android:name="org.koboc.collect.android.activities.GeoTraceGoogleMapActivity"
+            android:name="org.nyawest.collect.android.activities.GeoTraceGoogleMapActivity"
             android:configChanges="orientation"
             android:label="@string/app_name" />
         <activity
-            android:name="org.koboc.collect.android.activities.BearingActivity"
+            android:name="org.nyawest.collect.android.activities.BearingActivity"
             android:label="@string/app_name" />
         <activity
-            android:name="org.koboc.collect.android.activities.SplashScreenActivity"
+            android:name="org.nyawest.collect.android.activities.SplashScreenActivity"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Dialog">
             <intent-filter>
@@ -245,7 +245,7 @@ the specific language governing permissions and limitations under the License.
         </activity>
         <!-- Enable Shortcuts for Command Actions -->
         <activity
-            android:name="org.koboc.collect.android.activities.AndroidShortcuts"
+            android:name="org.nyawest.collect.android.activities.AndroidShortcuts"
             android:label="ODK Form"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
@@ -254,17 +254,17 @@ the specific language governing permissions and limitations under the License.
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="org.koboc.collect.android.activities.CaptureSelfieActivity" />
-        <activity android:name="org.koboc.collect.android.activities.CaptureSelfieActivityNewApi" />
+        <activity android:name="org.nyawest.collect.android.activities.CaptureSelfieActivity" />
+        <activity android:name="org.nyawest.collect.android.activities.CaptureSelfieActivityNewApi" />
 
         <receiver
-            android:name="org.koboc.collect.android.receivers.NetworkReceiver"
+            android:name="org.nyawest.collect.android.receivers.NetworkReceiver"
             android:enabled="true">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
             <intent-filter>
-                <action android:name="org.koboc.collect.android.FormSaved" />
+                <action android:name="org.nyawest.collect.android.FormSaved" />
             </intent-filter>
         </receiver>
         <!--
@@ -302,13 +302,13 @@ the specific language governing permissions and limitations under the License.
             android:required="false" />
 
         <activity
-            android:name="org.koboc.collect.android.location.GeoActivity"
+            android:name="org.nyawest.collect.android.location.GeoActivity"
             android:configChanges="orientation"
             android:exported="true"
             android:label="@string/app_name" />
-        <activity android:name="org.koboc.collect.android.activities.WebViewActivity" />
-        <activity android:name="org.koboc.collect.android.activities.CaptureSelfieVideoActivity" />
-        <activity android:name="org.koboc.collect.android.activities.CaptureSelfieVideoActivityNewApi" />
+        <activity android:name="org.nyawest.collect.android.activities.WebViewActivity" />
+        <activity android:name="org.nyawest.collect.android.activities.CaptureSelfieVideoActivity" />
+        <activity android:name="org.nyawest.collect.android.activities.CaptureSelfieVideoActivityNewApi" />
     </application>
 
 </manifest>

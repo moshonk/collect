@@ -1,15 +1,15 @@
-package org.koboc.collect.android.externalintents;
+package org.nyawest.collect.android.externalintents;
 
 import android.support.test.filters.Suppress;
 import android.support.test.rule.ActivityTestRule;
 
 import org.junit.Rule;
 import org.junit.Test;
-import org.koboc.collect.android.activities.FormChooserList;
+import org.nyawest.collect.android.activities.FormChooserList;
 
 import java.io.IOException;
 
-import static org.koboc.collect.android.externalintents.ExportedActivitiesUtils.testDirectories;
+import static org.nyawest.collect.android.externalintents.ExportedActivitiesUtils.testDirectories;
 
 @Suppress
 // Frequent failures: https://github.com/opendatakit/collect/issues/796

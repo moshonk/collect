@@ -23,5 +23,14 @@
         <item name="android:windowEnterAnimation">@anim/popup_show</item>
         <item name="android:windowExitAnimation">@anim/popup_hide</item>
     </style>
+    
+    <style name="CustomToolbar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+    </style>
 
+    <style name="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:itemTextAppearance">@style/myCustomMenuTextApearance</item>
+    </style>
 </resources>

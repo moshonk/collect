@@ -35,4 +35,4 @@ captures/
 
 # Kobo-specific tools
 node_modules
-kobocollect*
+NyaWestCollect*

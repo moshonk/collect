@@ -1,4 +1,4 @@
-package org.koboc.collect.android.test;
+package org.nyawest.collect.android.test;
 
 import android.content.SharedPreferences.Editor;
 import android.preference.PreferenceManager;
@@ -8,15 +8,15 @@ import java.util.concurrent.TimeUnit;
 
 import org.junit.After;
 import org.junit.Before;
-import org.koboc.collect.android.application.Collect;
-import org.koboc.collect.android.preferences.PreferenceKeys;
+import org.nyawest.collect.android.application.Collect;
+import org.nyawest.collect.android.preferences.PreferenceKeys;
 
 import okhttp3.mockwebserver.MockResponse;
 import okhttp3.mockwebserver.MockWebServer;
 import okhttp3.mockwebserver.RecordedRequest;
 
-import static org.koboc.collect.android.test.TestUtils.backupPreferences;
-import static org.koboc.collect.android.test.TestUtils.restorePreferences;
+import static org.nyawest.collect.android.test.TestUtils.backupPreferences;
+import static org.nyawest.collect.android.test.TestUtils.restorePreferences;
 
 public abstract class MockedServerTest {
     private Map<String, ?> prefsBackup;

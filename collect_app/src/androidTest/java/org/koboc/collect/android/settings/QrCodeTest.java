@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.koboc.collect.android.settings;
+package org.nyawest.collect.android.settings;
 
 import android.graphics.Bitmap;
 import android.support.test.runner.AndroidJUnit4;
@@ -27,9 +27,9 @@ import com.google.zxing.WriterException;
 import org.json.JSONException;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.koboc.collect.android.preferences.GeneralSharedPreferences;
-import org.koboc.collect.android.utilities.QRCodeUtils;
-import org.koboc.collect.android.utilities.SharedPreferencesUtils;
+import org.nyawest.collect.android.preferences.GeneralSharedPreferences;
+import org.nyawest.collect.android.utilities.QRCodeUtils;
+import org.nyawest.collect.android.utilities.SharedPreferencesUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -42,10 +42,10 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
-import static org.koboc.collect.android.preferences.PreferenceKeys.GENERAL_KEYS;
-import static org.koboc.collect.android.preferences.PreferenceKeys.KEY_SELECTED_GOOGLE_ACCOUNT;
-import static org.koboc.collect.android.preferences.PreferenceKeys.KEY_SHOW_SPLASH;
-import static org.koboc.collect.android.preferences.PreferenceKeys.KEY_USERNAME;
+import static org.nyawest.collect.android.preferences.PreferenceKeys.GENERAL_KEYS;
+import static org.nyawest.collect.android.preferences.PreferenceKeys.KEY_SELECTED_GOOGLE_ACCOUNT;
+import static org.nyawest.collect.android.preferences.PreferenceKeys.KEY_SHOW_SPLASH;
+import static org.nyawest.collect.android.preferences.PreferenceKeys.KEY_USERNAME;
 
 
 @RunWith(AndroidJUnit4.class)

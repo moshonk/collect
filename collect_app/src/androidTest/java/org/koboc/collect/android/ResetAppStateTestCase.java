@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.koboc.collect.android;
+package org.nyawest.collect.android;
 
 import android.content.ContentValues;
 import android.content.SharedPreferences;
@@ -27,12 +27,12 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.koboc.collect.android.application.Collect;
-import org.koboc.collect.android.preferences.AdminKeys;
-import org.koboc.collect.android.preferences.PreferenceKeys;
-import org.koboc.collect.android.provider.FormsProviderAPI;
-import org.koboc.collect.android.provider.InstanceProviderAPI;
-import org.koboc.collect.android.utilities.ResetUtility;
+import org.nyawest.collect.android.application.Collect;
+import org.nyawest.collect.android.preferences.AdminKeys;
+import org.nyawest.collect.android.preferences.PreferenceKeys;
+import org.nyawest.collect.android.provider.FormsProviderAPI;
+import org.nyawest.collect.android.provider.InstanceProviderAPI;
+import org.nyawest.collect.android.utilities.ResetUtility;
 import org.osmdroid.config.Configuration;
 
 import java.io.File;

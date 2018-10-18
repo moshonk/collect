@@ -1,1 +1,1 @@
-[{"outputType":{"type":"APK"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":2764},"path":"collect-release-v1.14.0k.apk","properties":{"packageId":"org.koboc.collect.android","split":"","minSdkVersion":"16"}}]
+[{"outputType":{"type":"APK"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":7,"versionName":"1.1","enabled":true,"outputFile":"collect-release-1.1.apk","fullName":"release","baseName":"release"},"path":"collect-release-1.1.apk","properties":{}}]

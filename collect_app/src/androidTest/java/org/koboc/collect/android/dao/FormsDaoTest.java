@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.koboc.collect.android.dao;
+package org.nyawest.collect.android.dao;
 
 import android.database.Cursor;
 import android.support.test.InstrumentationRegistry;
@@ -24,10 +24,10 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.koboc.collect.android.application.Collect;
-import org.koboc.collect.android.dto.Form;
-import org.koboc.collect.android.provider.FormsProviderAPI;
-import org.koboc.collect.android.utilities.ResetUtility;
+import org.nyawest.collect.android.application.Collect;
+import org.nyawest.collect.android.dto.Form;
+import org.nyawest.collect.android.provider.FormsProviderAPI;
+import org.nyawest.collect.android.utilities.ResetUtility;
 
 import java.io.File;
 import java.io.IOException;

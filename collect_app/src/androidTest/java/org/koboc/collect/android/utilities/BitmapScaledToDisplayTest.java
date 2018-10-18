@@ -1,11 +1,11 @@
-package org.koboc.collect.android.utilities;
+package org.nyawest.collect.android.utilities;
 
 import android.graphics.Bitmap;
 import android.support.test.runner.AndroidJUnit4;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.koboc.collect.android.application.Collect;
+import org.nyawest.collect.android.application.Collect;
 
 import java.io.File;
 

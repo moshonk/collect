@@ -1,10 +1,10 @@
-package org.koboc.collect.android.test;
+package org.nyawest.collect.android.test;
 
 import android.os.Environment;
 
-import org.koboc.collect.android.application.Collect;
-import org.koboc.collect.android.preferences.GeneralSharedPreferences;
-import org.koboc.collect.android.provider.InstanceProviderAPI;
+import org.nyawest.collect.android.application.Collect;
+import org.nyawest.collect.android.preferences.GeneralSharedPreferences;
+import org.nyawest.collect.android.provider.InstanceProviderAPI;
 
 import java.io.Closeable;
 import java.io.File;

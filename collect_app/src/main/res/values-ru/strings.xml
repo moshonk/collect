@@ -290,8 +290,8 @@
   <string name="username_error_whitespace">Не допускается использовать пробельные символы в начале и конце имени пользователя</string>
   <string name="google_play_services_error_occured">Не удалось получить доступ к Google Картам. Установлены ли службы Google Play?</string>
   <string name="about_preferences">О программе</string>
-  <string name="tell_your_friends">Поделиться KoBoCollect</string>
-  <string name="tell_your_friends_msg">Ваши колеги всё ещё ведут сбор данных на бумаге? Поделитесь KoBoCollect с ними.</string>
+  <string name="tell_your_friends">Поделиться NyaWestCollect</string>
+  <string name="tell_your_friends_msg">Ваши колеги всё ещё ведут сбор данных на бумаге? Поделитесь NyaWestCollect с ними.</string>
   <string name="leave_a_review">Оставить отзыв в Play Store</string>
   <string name="leave_a_review_msg">Ваш отзыв (надеемся, положительный) делает приложение более заметным в Play Store.</string>
   <!--Geo string added in feature-geofeatures branch-->
@@ -428,7 +428,7 @@
   <string name="sort_by_status_asc">По статусу, завершённые сначала</string>
   <string name="sort_by_status_desc">По статусу, незавершённые сначала</string>
   <string name="sort_the_list">Сортировать список</string>
-  <string name="request_permissions_google_account">KoBoCollect требуется доступ к Вашему аккаунту Google, чтобы получать пустые формы и отправлять заполненные формы.</string>
+  <string name="request_permissions_google_account">NyaWestCollect требуется доступ к Вашему аккаунту Google, чтобы получать пустые формы и отправлять заполненные формы.</string>
   <string name="filter_the_list">Фильтровать список</string>
   <string name="language">Язык</string>
   <string name="google_auth_io_exception_msg">Не удалось вызвать API. Если Вы запустили локальную сборку, пожалуйста, почитайте readme проекта.</string>

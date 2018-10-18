@@ -1,4 +1,4 @@
-package org.koboc.collect.android.location;
+package org.nyawest.collect.android.location;
 
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;

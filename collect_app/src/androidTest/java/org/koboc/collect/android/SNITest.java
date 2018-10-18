@@ -1,4 +1,4 @@
-package org.koboc.collect.android;
+package org.nyawest.collect.android;
 
 import android.support.test.filters.Suppress;
 import android.support.test.runner.AndroidJUnit4;
@@ -20,9 +20,9 @@ import javax.net.ssl.HttpsURLConnection;
 
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.fail;
-import static org.koboc.collect.android.utilities.WebUtils.CONNECTION_TIMEOUT;
-import static org.koboc.collect.android.utilities.WebUtils.createHttpClient;
-import static org.koboc.collect.android.utilities.WebUtils.createOpenRosaHttpGet;
+import static org.nyawest.collect.android.utilities.WebUtils.CONNECTION_TIMEOUT;
+import static org.nyawest.collect.android.utilities.WebUtils.createHttpClient;
+import static org.nyawest.collect.android.utilities.WebUtils.createOpenRosaHttpGet;
 
 /**
  * An on-device test for TLS server name indication support.

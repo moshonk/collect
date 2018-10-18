@@ -65,19 +65,17 @@ if (secretsFile.exists()) {
 
 android {
     compileSdkVersion(27)
-
     defaultConfig {
-        applicationId('org.koboc.collect.android')
-        minSdkVersion(16)
+        applicationId('org.nyawest.collect.android')
+        minSdkVersion(22)
         targetSdkVersion(22)
-        versionCode LEGACY_BUILD_NUMBER_OFFSET + getMasterCommitCount()
-        versionName getVersionName()
         testInstrumentationRunner('android.support.test.runner.AndroidJUnitRunner')
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
         archivesBaseName = 'collect'
+        versionName '1.1'
+        versionCode 7
     }
-
     signingConfigs {
         release {
             if (secrets.getProperty('RELEASE_STORE_FILE')) {
@@ -88,7 +86,6 @@ android {
             }
         }
     }
-
     buildTypes {
         // Release build for all forks
         release {
@@ -98,6 +95,7 @@ android {
             minifyEnabled(true)
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
             resValue("bool", "FIREBASE_CRASH_ENABLED", "false")
+            signingConfig signingConfigs.release
         }
         // Release build for the original ODK Collect app
         odkCollectRelease {
@@ -114,7 +112,6 @@ android {
             resValue("bool", "FIREBASE_CRASH_ENABLED", "false")
         }
     }
-
     // https://stackoverflow.com/a/27119543/152938
     applicationVariants.all { variant ->
         variant.outputs.all { output ->
@@ -126,7 +123,6 @@ android {
             outputFileName = new File(outputFileName.replace(".apk", "-${defaultConfig.versionName}.apk"))
         }
     }
-
     packagingOptions {
         // Pick first occurrence of any files that cause conflicts, as defined
         // in common.gradle
@@ -140,16 +136,13 @@ android {
         pickFirst 'META-INF/services/javax.ws.rs.ext.MessageBodyReader'
         pickFirst 'META-INF/services/javax.ws.rs.ext.MessageBodyWriter'
     }
-
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-
     dexOptions {
         javaMaxHeapSize '2048M'
     }
-
     testOptions {
         unitTests {
             includeAndroidResources = true
@@ -157,6 +150,8 @@ android {
         }
     }
     buildToolsVersion '27.0.3'
+    productFlavors {
+    }
 }
 
 configurations.all {

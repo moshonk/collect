@@ -97,8 +97,8 @@
     <string name="load_remote_form_error">Error Getting Form List</string>
     <string name="location_provider_accuracy">Using %1$s. Accuracy is %2$s m.</string>
     <string name="location_accuracy">Accuracy is %1$s m</string>
-    <string name="main_menu">KoBoCollect</string>
-    <string name="main_menu_details">Part of KoBoToolbox</string>
+    <string name="main_menu">NyaWestCollect</string>
+    <string name="main_menu_details">Powered by KoBoToolbox</string>
     <string name="manage_files">Delete Saved Form</string>
     <string name="mark_finished">Mark form as finalized</string>
     <string name="noselect_error">Sorry, you have not selected any forms!</string>
@@ -300,8 +300,8 @@
     <string name="username_error_whitespace">Leading or trailing whitespace not allowed in usernames</string>
     <string name="google_play_services_error_occured">Unable to access Google Maps. Is Google Play Services installed?</string>
     <string name="about_preferences">About</string>
-    <string name="tell_your_friends">Share KoBoCollect</string>
-    <string name="tell_your_friends_msg">Are your colleagues still collecting data on paper? Share KoBoCollect with them.</string>
+    <string name="tell_your_friends">Share NyaWestCollect</string>
+    <string name="tell_your_friends_msg">Are your colleagues still collecting data on paper? Share NyaWestCollect with them.</string>
     <string name="leave_a_review">Leave a Play Store review</string>
     <string name="leave_a_review_msg">Your (hopefully positive) review increases the visibility of the App in the Play Store.</string>
     <!-- Geo string added in feature-geofeatures branch-->
@@ -344,7 +344,7 @@
     <string name="polygon_or_polyline">"Save GeoTrace As"</string>
     <string name="minutes">Minutes</string>
     <string name="geo_clear_warning">Feature already created. Would you like to clear the feature?</string>
-    <string name="geo_exit_warning">Discard changes and return to KoBoCollect?</string>
+    <string name="geo_exit_warning">Discard changes and return to NyaWestCollect?</string>
     <string name="polygon_validator">Must have at least 3 points to create Polygon</string>
     <string name="dialog_continue">Continue</string>
     <string name="clear">Clear</string>
@@ -382,7 +382,7 @@
     <string name="parser_exception">XPathParser Exception: \"%s\"</string>
     <string name="selected_answer">Selected: %s</string>
     <string name="version_number">Version: %s</string>
-    <string name="odk_website">Visit the KoBoToolbox website</string>
+    <string name="odk_website">Visit ICAP-Kenya website</string>
     <string name="odk_website_summary">KoBoToolbox is used to collect data for social good in challenging environments.</string>
     <string name="odk_forum">Join the KoBoToolbox forum</string>
     <string name="odk_forum_summary">Join the forum to get support, request features, contribute code/translations! </string>
@@ -442,7 +442,7 @@
     <string name="sort_by_status_asc">Status, finalized first</string>
     <string name="sort_by_status_desc">Status, unfinalized first</string>
     <string name="sort_the_list">Sort the list</string>
-    <string name="request_permissions_google_account">KoBoCollect needs access to your Google account to get blank forms and submit filled forms.</string>
+    <string name="request_permissions_google_account">NyaWestCollect needs access to your Google account to get blank forms and submit filled forms.</string>
     <string name="filter_the_list">Filter the list</string>
     <string name="language">Language</string>
     <string name="google_auth_io_exception_msg">Unable to make API calls. If you are running a local build, please review the project readme.</string>

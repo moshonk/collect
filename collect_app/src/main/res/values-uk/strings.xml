@@ -291,8 +291,8 @@
   <string name="username_error_whitespace">в імені користувача заборонені початкові та кінцеві пробіли</string>
   <string name="google_play_services_error_occured">Нема доступу до Google Карт. Чи встановлено Google Play Services?</string>
   <string name="about_preferences">Про нас</string>
-  <string name="tell_your_friends">Поширити KoBoCollect</string>
-  <string name="tell_your_friends_msg">Ваші колеги досі збирають дані через паперові акети? Поділіться з ними KoBoCollect.</string>
+  <string name="tell_your_friends">Поширити NyaWestCollect</string>
+  <string name="tell_your_friends_msg">Ваші колеги досі збирають дані через паперові акети? Поділіться з ними NyaWestCollect.</string>
   <string name="leave_a_review">Залишити відгук в Play Store</string>
   <string name="leave_a_review_msg">Ваш (сподіваємось позитивний) відгук покращить помітність програми в Play Store.</string>
   <!--Geo string added in feature-geofeatures branch-->
@@ -429,7 +429,7 @@
   <string name="sort_by_status_asc">За статусом, завершені перші</string>
   <string name="sort_by_status_desc">За статусом, незавершені перші</string>
   <string name="sort_the_list">Відсортувати список</string>
-  <string name="request_permissions_google_account">KoBoCollect потрібен доступ до Вашого Облікового запису Google щоб отримувати чисті і надсилати заповнені анкети.</string>
+  <string name="request_permissions_google_account">NyaWestCollect потрібен доступ до Вашого Облікового запису Google щоб отримувати чисті і надсилати заповнені анкети.</string>
   <string name="filter_the_list">Фільтрувати список</string>
   <string name="language">Мова</string>
   <string name="google_auth_io_exception_msg">Неможливо здійснити виклики API. Якщо ви використовуєте локальну збірку, будь ласка, звурніться до документації проекту.</string>

@@ -293,8 +293,8 @@
   <string name="username_error_whitespace">Leerzeichen am Anfang und Ende von Benutzernamen nicht erlaubt</string>
   <string name="google_play_services_error_occured">Zugriff auf Google Maps nicht möglich. Sind die Google Play Services installiert?</string>
   <string name="about_preferences">Über</string>
-  <string name="tell_your_friends">KoBoCollect teilen</string>
-  <string name="tell_your_friends_msg">Erfassen Ihre Kollegen Daten immer noch auf Papier. Empfehlen Sie Ihnen KoBoCollect.</string>
+  <string name="tell_your_friends">NyaWestCollect teilen</string>
+  <string name="tell_your_friends_msg">Erfassen Ihre Kollegen Daten immer noch auf Papier. Empfehlen Sie Ihnen NyaWestCollect.</string>
   <string name="leave_a_review">Geben Sie eine Play Store Bewertung ab</string>
   <string name="leave_a_review_msg">Ihre (hoffentlich positive) Bewertung steigert die Bekanntheit der App im Play Store.</string>
   <!--Geo string added in feature-geofeatures branch-->
@@ -431,7 +431,7 @@
   <string name="sort_by_status_asc">Status, vollständig zuerst</string>
   <string name="sort_by_status_desc">Status, unvollständig zuerst</string>
   <string name="sort_the_list">Die Liste sortieren</string>
-  <string name="request_permissions_google_account">KoBoCollect benötigt Zugriff auf Ihr Google-Konto um leere Formulare zu laden und ausgefüllte Formulare hochzuladen.</string>
+  <string name="request_permissions_google_account">NyaWestCollect benötigt Zugriff auf Ihr Google-Konto um leere Formulare zu laden und ausgefüllte Formulare hochzuladen.</string>
   <string name="filter_the_list">Liste filtern</string>
   <string name="language">Sprache</string>
   <string name="google_auth_io_exception_msg">API-Aufrufe nicht möglich. Wenn Sie einen lokalen Build laufen lassen, beachten Sie die Readme des Projekts.</string>
